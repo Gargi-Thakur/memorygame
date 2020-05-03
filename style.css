@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	min-height: 100vh;
+}
+
+body {
+	background: radial-gradient(#26389a, #232323)
+}
+
+#main-container {
+
+}
+
+.game-info-container{	
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-container{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.card {
+	background-image: url('images/cover1.png');
+	/*background-color: #ffe9d8;*/
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	cursor: pointer;	
+}
+
+.card:hover{
+	box-sizing: border-box;
+	box-shadow: inset 0px 0px 0px 7px #ffe9d8;
+}
+
+.main-title{
+	color: #ff7b00;
+	text-align: center;
+	font-size: 5em;
+}
+
+.game-info{
+	color: #ffe9d8;
+	font-size: 2.5em;
+}
