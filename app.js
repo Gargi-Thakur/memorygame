@@ -37,7 +37,7 @@ if (card) {
 
 function addBack(){
 	//card.classList.add('back');
-	alert('clicked');
+	//alert('clicked');
 };
 
 
