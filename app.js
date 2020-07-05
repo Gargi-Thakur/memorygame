@@ -20,7 +20,11 @@ cardImages[9] = 'images/neji.png';
 cardImages[10] = 'images/naruto.png';
 cardImages[11] = 'images/hinata.png';
 
-var cards = document.querySelectorAll(".card");
+let card = document.querySelectorAll(".card");
+let front = document.querySelectorAll(".front");
+let back = document.querySelectorAll(".back");
+let flip = document.querySelector("#flip");
+let timer = document.querySelector("#timer");
 var pickedCard = cardImages[5];
 
 for(var i = 0; i < cards.length; i++){
@@ -32,7 +36,10 @@ cards.addEventListener("click", function(){
 	alert("clicked")
 })
 
-
+//ASSIGNS IMAGES TO CARDS
+for(var i = 0; i < back.length; i++){
+	back[i].style.backgroundImage = cardImages[i];
+}
 
 
 
